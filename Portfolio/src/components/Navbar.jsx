@@ -6,6 +6,7 @@ import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
+  const [toggle, setToggle] = useState(false);
 
   return (
     <nav
@@ -31,6 +32,15 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className="sm: hidden flex flex-1 justify-end item-center">
+          <img
+            src={toggle ? close : menu}
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
+            onClick={() => setToggle(!toggle)}
+          />
+        </div>
         {/* Add your other navigation items here */}
       </div>
     </nav>
