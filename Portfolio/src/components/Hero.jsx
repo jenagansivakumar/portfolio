@@ -11,7 +11,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#4badef]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-80 h-40 blue-gradient" />
         </div>
 
         <div>
@@ -19,8 +19,11 @@ const Hero = () => {
             Hi, I'm <span className="text-[#4badef]">Jenagan Sivakumar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I Am A <br className="sm:block hidden" />
-            Full Stack Developer{" "}
+            I'm Jenagan Sivakumar - <br className="sm:block hidden" />a recent
+            graduate from Spiced Academy. As a full stack developer, I'm eager
+            to work on personal projects and actively seeking a role in full
+            stack web development to contribute my skills and create innovative
+            solutions.{" "}
           </p>
         </div>
       </div>
